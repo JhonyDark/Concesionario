@@ -27,4 +27,7 @@ public class ClsOpenHelper extends SQLiteOpenHelper {
         }
 
     }
+
+    public void insertar(String identificacion, String email, boolean checked) {
+    }
 }
