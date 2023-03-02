@@ -1,5 +1,6 @@
 package com.example.concesionario;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -29,5 +30,15 @@ public class ClsOpenHelper extends SQLiteOpenHelper {
     }
 
     public void insertar(String identificacion, String email, boolean checked) {
+    }
+
+    public void consultar(String identificacion) {
+    }
+
+    public void actualizar(String identificacion, String email, boolean checked) {
+    }
+
+    public long actualizar(String tblcliente, ContentValues registro, String s, Object o) {
+        return 0;
     }
 }
